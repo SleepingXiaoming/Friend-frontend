@@ -7,7 +7,7 @@
         :key='usr.id'
         :desc="usr.profile??'暂无个人简介'"
         :title='usr.username'
-        :thumb="usr.avatarUrl"
+        :thumb="usr.avatarurl"
     >
       <template #tags>
         <van-row gutter="20" v-if="usr.tags?.length != 0">

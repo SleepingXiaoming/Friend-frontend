@@ -14,7 +14,7 @@ const { userList } = props;
 
 <template>
     <van-card v-for='usr in userList' :key='usr.id' :desc="usr.profile ?? '暂无个人简介'" :title='usr.username'
-        :thumb="usr.avatarUrl">
+        :thumb="usr.avatarurl">
         <template #tags>
             <van-row gutter="20" v-if="usr.tags?.length != 0">
                 <van-col v-for='tag in usr.tags'>

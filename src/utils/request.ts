@@ -18,7 +18,7 @@ const request = axios.create({
   transformResponse: [
     function (data) {
       // 对接收的 data 进行任意转换处理
-      console.log(data);
+      // console.log(data);
       data = JSON.parse(data); // 转换
       return data;
     },

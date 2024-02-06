@@ -12,9 +12,9 @@
       title="头像"
       is-link
       to="/user/edit"
-      @click="toEdit('头像', 'avatarUrl', user.avatarUrl)"
+      @click="toEdit('头像', 'avatarurl', user.avatarurl)"
     >
-      <van-image width="44" height="44" :src="user.avatarUrl" alt="头像" />
+      <van-image width="44" height="44" :src="user.avatarurl" alt="头像" />
     </van-cell>
     <van-cell
       title="性别"
